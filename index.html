@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Kianashop</title>
+  <link rel="icon" type="image/x-icon" href="img\logo.png">
+</head>
+
+<body>
+
+  <div>
+    <header>
+
+      <div class="logo">
+        <h2 class="name">Kiana</h2>
+        <a href="#"><img src="img\logo.png" class="mainimg"></a>
+      </div>
+
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+
+      <div class="leftside">
+        <h2 class="contact">Contact</h2>
+        <a href="#"><img src="img\Facebook.png" class="facebook"></a>
+        <a href="#"><img src="img\Instagram.png" class="instagram"></a>
+        <a href="#"><img src="img\Gmail.png" class="mail"></a>
+      </div>
+
+    </header>
+  </div>
+
+  <body>
+    <section class="carousel-container">
+
+      <div class="carousel">
+        <div class="carousel-images">
+          <img class="carousel-image carousel-image-1" src="img\Untitled (1).png" alt="">
+          <img class="carousel-image carousel-image-2" src="img\Untitledhnng.png" alt="">
+          <img class="carousel-image carousel-image-3" src="img\Untitledkiana.png" alt="">
+        </div>
+        <button class="carousel-btn btn-left" id="previous"><i class="fa-solid fa-chevron-left icon-left"></i></button>
+        <button class="carousel-btn btn-right" id="next"><i class="fa-solid fa-chevron-right icon-right"></i></button>
+      </div>
+      <!-- <h3 class="text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Labore, minus voluptas. Mollitia,<br>
+        et possimus ad ea vel provident magni<br>
+        eos illum reprehenderit dolor in doloribus<br>
+        eaque nulla quaerat sint aut.<br>
+        Lorem ipsum dolor sit amet consectetur<br>
+        adipisicing elit. Odio, nostrum eum,<br>
+        nulla itaque unde dicta voluptatem corrupti<br>
+      </h3> -->
+    </section>
+    <script src="script.js"></script>
+
+    <div class="registration">
+      <section class="forms-section">
+        <div class="forms">
+          <div class="form-wrapper is-active">
+            <button type="button" class="switcher switcher-login">
+              Login
+              <span class="underline"></span>
+            </button>
+            <form class="form form-login">
+              <fieldset>
+                <legend>Please, enter your email and password for login.</legend>
+                <div class="input-block">
+                  <label for="login-email">E-mail</label>
+                  <input id="login-email" type="email" required>
+                </div>
+                <div class="input-block">
+                  <label for="login-password">Password</label>
+                  <input id="login-password" type="password" required>
+                </div>
+              </fieldset>
+              <button type="submit" class="btn-login">Login</button>
+            </form>
+          </div>
+          <div class="form-wrapper">
+            <button type="button" class="switcher switcher-signup">
+              Sign Up
+              <span class="underline"></span>
+            </button>
+            <form class="form form-signup">
+              <fieldset>
+                <legend>Please, enter your email, password and password confirmation for sign up.</legend>
+                <div class="input-block">
+                  <label for="signup-email">E-mail</label>
+                  <input id="signup-email" type="email" required>
+                </div>
+                <div class="input-block">
+                  <label for="signup-password">Password</label>
+                  <input id="signup-password" type="password" required>
+                </div>
+                <div class="input-block">
+                  <label for="signup-password-confirm">Confirm password</label>
+                  <input id="signup-password-confirm" type="password" required>
+                </div>
+              </fieldset>
+              <button type="submit" class="btn-signup">Continue</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</body>
+
+</html>
